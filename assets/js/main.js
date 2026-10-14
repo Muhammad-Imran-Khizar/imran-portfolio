@@ -534,11 +534,11 @@ function lazyAOSAnimation() {
             });
         });
     }
+    $(document).ready(preloader);
     /*=============================================
 	=           Page Load       =
     =============================================*/
     $(window).on('load', function () {
-        preloader();
         progressPageLoad();
         offcanvasMenu();
         dataBackground();
